@@ -11,5 +11,8 @@ simple player based on ffmpeg and sdl2
 by `avcodec_decode_video2()`.
 
 ### `simple-update`
-* SU（Simple Update）Version solved 2 problems above. It create a thread to send SDL 
+* SU（Simple Update）Version solved 2 problems above. It create a thread to send SDL
 Event every 40ms to tell the main loop to decode and show video frames.
+
+### `decoder-pure`
+* A pure decoder. Only use libavcodec (Without libavformat).
