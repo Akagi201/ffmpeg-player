@@ -19,3 +19,6 @@ Event every 40ms to tell the main loop to decode and show video frames.
 
 ### `decoder`
 * A decoder that can demux container format. Uses libavcodec and libavformat.
+
+### `yuv`
+* Example about using SDL2 play YUV data.
