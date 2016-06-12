@@ -16,3 +16,6 @@ Event every 40ms to tell the main loop to decode and show video frames.
 
 ### `decoder-pure`
 * A pure decoder. Only use libavcodec (Without libavformat).
+
+### `decoder`
+* A decoder that can demux container format. Uses libavcodec and libavformat.
